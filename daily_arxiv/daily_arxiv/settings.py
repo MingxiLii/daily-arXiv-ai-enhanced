@@ -65,8 +65,10 @@ ROBOTSTXT_OBEY = True
 # 配置数据处理管道 / Configure item processing pipelines
 # 数字越小优先级越高 / Lower numbers have higher priority
 ITEM_PIPELINES = {
-    # 主要数据保存管道 / Main data saving pipeline
+    # 主要数据获取管道 / Main data fetching pipeline
     "daily_arxiv.pipelines.DailyArxivPipeline": 300,
+    # 关键词过滤管道（电池材料+AI4Science）/ Keyword filter pipeline (battery + AI4Science)
+    "daily_arxiv.pipelines.KeywordFilterPipeline": 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
