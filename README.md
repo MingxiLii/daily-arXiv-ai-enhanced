@@ -33,7 +33,7 @@ This innovative tool transforms how you stay updated with arXiv papers by combin
 - One-click copy in Settings to export your keywords and authors configuration
 - Seamlessly combine exported preferences with SKILL for reproducible and shareable setups
 
-👉 **[Try it now!]([https://github.com/MingxiLii/daily-arXiv-ai-enhanced/](https://mingxilii.github.io/daily-arXiv-ai-enhanced/))** - No installation required
+👉 **[Try it now!](https://mingxilii.github.io/daily-arXiv-ai-enhanced/)** - No installation required
 
 
 
